@@ -110,13 +110,13 @@ export function Navbar() {
         {/* Resume Dropdown */}
         <div className="relative group">
           <button 
-            className="bg-blue-600 text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-blue-500 transition-all shadow-[0_0_15px_rgba(37,99,235,0.5)] flex items-center gap-2 group-hover:-translate-y-0.5"
+            className="bg-blue-600 text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-blue-500 transition-all shadow-[0_0_15px_rgba(37,99,235,0.5)] flex items-center gap-2 group-hover:-translate-y-0.5 focus:ring-2 focus:ring-blue-400"
           >
             <Download className="w-4 h-4" /> 
             <span className="hidden sm:inline">Resume</span>
           </button>
           
-          <div className="absolute right-0 top-full mt-2 w-40 glass-panel border border-white/20 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 flex flex-col overflow-hidden">
+          <div className="absolute right-0 top-full mt-2 w-40 glass-panel border border-white/20 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-300 flex flex-col overflow-hidden">
             <a 
               href="/Akshay_Dhage_Mechanical_Design_Engineer_V3.pdf" 
               target="_blank"
@@ -138,12 +138,12 @@ export function Navbar() {
         {/* Contact Dropdown */}
         <div className="relative group hidden sm:block">
           <button 
-            className="bg-transparent border border-white/20 text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-white/5 transition-all flex items-center gap-2 hover:-translate-y-0.5"
+            className="bg-transparent border border-white/20 text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-white/5 transition-all flex items-center gap-2 hover:-translate-y-0.5 focus:ring-2 focus:ring-white/30"
           >
             Contact Me
           </button>
           
-          <div className="absolute right-0 top-full mt-2 w-56 glass-panel border border-white/20 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 flex flex-col overflow-hidden">
+          <div className="absolute right-0 top-full mt-2 w-56 glass-panel border border-white/20 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-300 flex flex-col overflow-hidden">
             <button 
               onClick={() => copyToClipboard('akshaydhage2000@gmail.com', 'email')}
               className="px-4 py-3 text-sm font-semibold text-white/80 hover:bg-white/15 hover:text-white transition-colors flex items-center justify-between"

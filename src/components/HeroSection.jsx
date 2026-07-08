@@ -153,11 +153,11 @@ export function HeroSection() {
         </div>
 
         {/* RIGHT COLUMN: 3D Image */}
-        <div className="w-full lg:w-[50%] absolute right-[-2%] top-1/2 -translate-y-1/2 h-[100%] md:h-[130%] z-0 flex items-center justify-center pointer-events-none opacity-75 lg:opacity-80 mt-10 lg:mt-0 transition-opacity duration-500">
+        <div className="relative lg:absolute w-full lg:w-[50%] lg:right-[-2%] top-auto lg:top-1/2 lg:-translate-y-1/2 h-[300px] lg:h-[100%] md:h-[130%] z-0 flex items-center justify-center pointer-events-none opacity-50 lg:opacity-80 mt-10 lg:mt-0 transition-opacity duration-500 overflow-hidden">
             <img 
               src="/images/hero-assembly.png" 
               alt="Mechanical Assembly" 
-              className="w-full h-full object-contain object-center scale-110 md:scale-125 mix-blend-screen contrast-125 brightness-110"
+              className="w-[120%] lg:w-full h-[120%] lg:h-full object-contain object-center scale-110 md:scale-125 mix-blend-screen contrast-125 brightness-110"
               style={{
                 maskImage: 'linear-gradient(to right, transparent 0%, black 30%)',
                 WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 30%)'
