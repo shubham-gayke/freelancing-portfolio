@@ -24,7 +24,7 @@ const CurveBackground = ({ color }) => (
 
 export function SkillsSection() {
   return (
-    <section id="skills" className="relative z-10 w-full max-w-[1400px] mx-auto px-4 py-24 min-h-screen flex flex-col justify-center">
+    <section id="skills" className="relative z-10 w-full max-w-[1400px] mx-auto px-4 py-24 flex flex-col justify-center">
       
       {/* Background Ambience */}
       <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-purple-500/10 rounded-full blur-[120px] pointer-events-none z-0"></div>

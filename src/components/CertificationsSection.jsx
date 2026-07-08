@@ -27,7 +27,7 @@ export function CertificationsSection() {
   ];
 
   return (
-    <section id="certifications" className="relative z-10 w-full max-w-5xl mx-auto px-4 py-24 min-h-[60vh] flex flex-col justify-center overflow-hidden">
+    <section id="certifications" className="relative z-10 w-full max-w-5xl mx-auto px-4 py-24 flex flex-col justify-center overflow-hidden">
       
       {/* Background Ambience */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-green-500/5 rounded-full blur-[120px] pointer-events-none z-0"></div>

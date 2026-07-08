@@ -70,7 +70,7 @@ export function ProjectsSection() {
   ];
 
   return (
-    <section id="projects" className="relative z-10 w-full max-w-[1400px] mx-auto px-4 py-24 min-h-screen flex flex-col items-center">
+    <section id="projects" className="relative z-10 w-full max-w-[1400px] mx-auto px-4 py-24 flex flex-col items-center">
       
       {/* Background Glowing Rings */}
       <div className="absolute top-20 left-10 w-[400px] h-[400px] rounded-full border border-purple-500/30 opacity-40 blur-[2px] pointer-events-none" style={{ boxShadow: '0 0 100px rgba(139,92,246,0.2) inset' }}></div>

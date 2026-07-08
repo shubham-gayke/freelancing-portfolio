@@ -40,7 +40,7 @@ export function ExperienceSection() {
   ];
 
   return (
-    <section id="experience" className="relative z-10 w-full max-w-5xl mx-auto px-4 py-24 min-h-screen flex flex-col items-center">
+    <section id="experience" className="relative z-10 w-full max-w-5xl mx-auto px-4 py-24 flex flex-col items-center">
       
       {/* Header aligned exactly like the image */}
       <div className="mb-20 text-center flex flex-col items-center">
